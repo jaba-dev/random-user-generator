@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(50, 70, 90);
+}
+
+.container {
+  margin: 50px 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.container > h1 {
+  color: white;
+  margin: auto;
+}
+
+.container > button {
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  /* display: inline-block; */
+  cursor: pointer;
+  color: #3a8a9e;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+.container > button:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+.container > button:active {
+  position: relative;
+  top: 1px;
+}
+
+.user-container > p > span {
+  font-size: 1.1rem;
+}
+
+.user-container > p :nth-child(2n) {
+  color: white;
+}
+
+.user-container > p :nth-child(3),
+.user-container > p :nth-child(5) {
+  background: linear-gradient(
+    to left,
+    orange 0%,
+    yellowgreen 25%,
+    orange 50%,
+    yellowgreen 75%,
+    orange 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-container > p > h2 {
+  font-size: 2rem;
+  background: #008080;
+  background: linear-gradient(
+    to left,
+    #008080 0%,
+    #ffffff 25%,
+    #05c1ff 50%,
+    #ffffff 75%,
+    #005757 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
